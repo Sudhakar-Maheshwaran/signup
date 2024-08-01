@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(0deg,rgb(73, 230, 232)0%,rgb(114, 53, 136)86%);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup-container{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 20px 25px rgba(88, 78, 78, 0.3);
+}
+
+.header{
+    text-align: center;
+    color: rgb(145, 9, 163);
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-control input{
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(13, 14, 14);
+}
+
+.submit{
+    background-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 4px;
+    border:1px solid green;
+    margin: 15px 0px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+}
+
+.form-control .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.form-control.success input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+.login{
+    border: none;
+    color: blue;
+    background-color: whitesmoke;
+}
