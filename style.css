@@ -68,3 +68,9 @@ p{
     color: blue;
     background-color: whitesmoke;
 }
+
+@media screen and (max-width: 430px){
+    .signup-container{
+        width: 260px;
+    }
+}
